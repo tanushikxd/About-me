@@ -159,6 +159,7 @@ header {
 .contacts__social{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -170,7 +171,7 @@ header {
 .contacts__send{
     text-decoration: none;
     color: rgb(155, 153, 153);
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
     border-bottom: 2px solid #f6f7f8;
 }
@@ -252,5 +253,10 @@ header {
   
     .nav {
       display: none;
+    }
+    .skills__list, .reasons__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
   }
