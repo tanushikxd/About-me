@@ -43,25 +43,3 @@ function handleScroll() {
     }
     
     window.addEventListener("scroll", handleScroll);
-
-
-    document.addEventListener("DOMContentLoaded", function () {
-        const callButton = document.getElementById("callButton");
-    
-        // Здесь вы можете задать номер, который вы хотите набрать
-        const phoneNumber = "+447789360275";
-    
-        callButton.addEventListener("click", function () {
-            // Выполнить набор номера
-            dialNumber(phoneNumber);
-        });
-    
-        function dialNumber(number) {
-            // Здесь можно реализовать логику для набора номера
-            // Например, можно использовать WebRTC или другие технологии для звонка
-    
-            // В данном примере просто выводим номер в консоль
-            console.log("Набираем номер: " + number);
-        }
-    });
-    

@@ -217,6 +217,36 @@ header {
     transform-origin: center;
 }
 
+.flexibility__description{
+    text-align: center;
+    line-height: 2.5;
+    background-color: rgba(71, 70, 70, 0.212);
+    padding: 15px;
+    border-radius: 10px;
+}
+.flexibility__back{
+
+}
+.flexibility__back {
+    position: fixed;
+    bottom: 20px;
+    right: 45%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.flexibility__back a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.flexibility__back:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+}
 @keyframes twinkleStar {
     0% {
         opacity: 0.5;
