@@ -284,6 +284,7 @@ header {
     }
     .info__title {
       padding-bottom: 3rem;
+      width: auto;
     }
     .info__switch--lang {
       display: none;
@@ -299,9 +300,4 @@ header {
     .skills__name, .reasons__name{
       display: none;
     }
-    .fixed-button {
-      right: 50%;
-      transform: translateX(50%);
-      bottom: 20px;
-  }
   }
